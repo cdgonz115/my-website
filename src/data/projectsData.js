@@ -12,40 +12,40 @@ export const contributions = {
             description: 'Original mechanic did not allow for much room to swing and build momentum as well '+
             'as a handful of other bugs, the improved version usessome extra logic and math that allow for a'+
             ' more realistic swinging mechanic.',
-            media: 'media/Colorphase/grapple.gif'
+            media: 'media/Colorphase/grapple.mp4'
         },
         {
             title: 'Double Jump Mechanic',
             link: 'https://github.com/GDCASU/Color-Phase/blob/819c02a7998f371fcacca83bfcefdef38245bb4a/Assets/Scripts/Player/PlayerMovement.cs#L221',
             description: 'Script that allows the player to perform a double jump when the player is the color blue.',
-            media: 'media/Colorphase/doublejump.gif'
+            media: 'media/Colorphase/doublejump.mp4'
         },
         {
             title: 'Wall Stick Mechanic',
             link: 'https://github.com/GDCASU/Color-Phase/blob/819c02a7998f371fcacca83bfcefdef38245bb4a/Assets/Scripts/Player/PlayerMovement.cs#L392',
             description: 'When the player is the color red and there is a sicky wall they can jump and hold'+
             ' themselves in place to reach new areas.',
-            media: 'media/Colorphase/wallstick.gif'
+            media: 'media/Colorphase/wallstick.mp4'
         },
         {
             title: "Vent's Mechanic",
             link: 'https://github.com/GDCASU/Color-Phase/blob/819c02a7998f371fcacca83bfcefdef38245bb4a/Assets/Scripts/Interactable/Vents.cs',
             description: 'If the player stands in front of a vent then they will be pushed in the direction'+
             ' the vent is facing, the force is strong enough to nullify gravity.',
-            media: 'media/Colorphase/vents.gif'
+            media: 'media/Colorphase/vents.mp4'
         },
         {
             title: 'General Game UI',
             link: 'https://github.com/GDCASU/Color-Phase/blob/819c02a7998f371fcacca83bfcefdef38245bb4a/Assets/Scripts/UI/UI.cs',
             description: 'Basic Functionality of the pause and title UI as well as having the player icon react'+
             ' to the player using the current color ability.',
-            media: 'media/Colorphase/UIColorphase.gif'
+            media: 'media/Colorphase/UIColorphase.mp4'
         },
         {
             title: 'Remmapping Mechanic',
             link: 'https://github.com/GDCASU/Color-Phase/blob/819c02a7998f371fcacca83bfcefdef38245bb4a/Assets/Scripts/UI/KeyboardRemap.cs',
             description: "The player is able to remap both on keyboard and controller what buttons/keys are in charge of hue's abilities",
-            media: 'media/Colorphase/remapping.gif'
+            media: 'media/Colorphase/remapping.mp4'
         },
         {
             title: 'Modular Level Selection',
@@ -53,14 +53,14 @@ export const contributions = {
             description: 'The number of levels in the game was not finalized by the time the UI was started. ' +
             'As a result the Level Select page needed to be modular and automatically creates the number of'+
             ' subpages necessary based on the number of scenes in the build.',
-            media: 'media/Colorphase/levelselect.gif'
+            media: 'media/Colorphase/levelselect.mp4'
         },
         {
             title: 'Player Grapple Flying Fix',
             link: 'https://github.com/GDCASU/Color-Phase/blob/819c02a7998f371fcacca83bfcefdef38245bb4a/Assets/Scripts/Player/Grapple.cs#L299',
             description: 'Grapple had no stopping point when pulling an object resulting in the object clipping'+
             ' with the player and resetting the jumping mechanic indefinitely.',
-            media: 'media/Colorphase/buggedMechanic.gif'
+            media: 'media/Colorphase/buggedMechanic.mp4'
         },
         {
             title: 'Controller Input Manager ',
@@ -81,28 +81,28 @@ export const contributions = {
             title: 'Camera Cutscenes',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/master/Assets/_Scripts/Museum/EndingCinematic.cs',
             description: 'During important parts of the game, cutscenes can play to help guide the player.',
-            media: 'media/TheBadMan/cutscenes.gif'
+            media: 'media/TheBadMan/cutscenes.mp4'
         },
         {
             title: 'AI line of sight spawn',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L135',
             description: "Improved the AI script so that The Bad Man can spawn in front of the player if it's" +
             " out of line of sight and perform a jumpscare.",
-            media: 'media/TheBadMan/lineofsight.gif'
+            media: 'media/TheBadMan/lineofsight.mp4'
         },
         {
             title: 'AI catch up mechanic',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L126',
             description: 'Improved the AI script and made The Bad Man teleport closer to the player if they are'+
             ' not in sight to be more of a threat on the bigger maps.',
-            media: 'media/TheBadMan/catchupmechanic.gif'
+            media: 'media/TheBadMan/catchupmechanic.mp4'
         },
         {
             title: 'Level Guiding Light',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/master/Assets/_Scripts/VikingLight/StatueLight.cs',
             description: 'Added a light to always be present between the player and the closest point of interest'+
             ' in order to guide them, the intensity of it is relative to the distance of the player from that object.',
-            media: 'media/TheBadMan/lightguidemechanic.gif'
+            media: 'media/TheBadMan/lightguidemechanic.mp4'
         },
         {
             title: 'Hiding Improvement',
@@ -110,26 +110,26 @@ export const contributions = {
             description: 'Whether the player hides successfully is dependent on line of sight, this allowed for'+
             ' the bad man to catch the player while hiding but this was not well communicated to the player, as'+
             ' a result a prompt was added to let the player know.',
-            media: 'media/TheBadMan/hidingmechanic.gif'
+            media: 'media/TheBadMan/hidingmechanic.mp4'
         },
         {
             title: 'Stun Improvement',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/AISight.cs#L130',
             description: 'The Stun mechanic was improved to allow the player to hide nearby after blinding The Bad Man.',
-            media: 'TheBadMan/stunmechanic.gif'
+            media: 'TheBadMan/stunmechanic.mp4'
         },
         {
             title: 'Glowing Eyes (small epilepsy warning)',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L225',
             description: 'Due to the dark nature of the maps, it was sometimes hard to tell where The Bad Man was and'+
             ' whether he was chasing. As a result glowing red eyes were added as a way to help the player know where The Bad Man is.',
-            media: 'TheBadMan/eyeglow.gif'
+            media: 'TheBadMan/eyeglow.mp4'
         },
         {
             title: 'Level Environment Scripts',
             link: 'https://github.com/cdgonz115/CPI_211_Final/tree/master/Assets/_Scripts/Future',
             description: 'Made scripts specific to level information/interactions such as the flickering lights in some levels and melting ice.',
-            media: 'TheBadMan/leveldetails.gif'
+            media: 'TheBadMan/leveldetails.mp4'
         }
     ],
     AegisInitiative: [
@@ -145,21 +145,21 @@ export const contributions = {
             link: 'https://github.com/GDCASU/Firefox/commit/de0bf88c9be95ccf13f3d93724636749cddaa96',
             description: 'Created the base for copilots system to facilitate and standardize the method of making' +
             ' copilots and adding their unique abilities to the player.',
-            media: 'media/AegisInitiative/copilots.gif'
+            media: 'media/AegisInitiative/copilots.mp4'
         },
         {
             title: 'UI functionality',
             link: 'https://github.com/GDCASU/Firefox/tree/master/Assets/Scripts/UI',
             description: 'Created the scripts to handle all of the UI functionality in the game. This included'+
             ' things such as settings, loading scenes, and Copilot selection.',
-            media: 'media/AegisInitiative/UI.gif'
+            media: 'media/AegisInitiative/UI.mp4'
         },
         {
             title: 'Asteroids',
             link: 'https://github.com/GDCASU/Firefox/commit/144a7e71f1a55f6e10fdddefff7ee58807b28958',
             description: 'Script that spawned asteroids within an area and kept them there as debri for the player'+
             ' to try and evade.',
-            media: 'media/AegisInitiative/asteroids.gif'
+            media: 'media/AegisInitiative/asteroids.mp4'
         }  
     ],
     ChronOdin: [
@@ -181,26 +181,26 @@ export const contributions = {
             link: 'https://github.com/GDCASU/TimePuzzle/blob/main/Assets/Editor/MovingPlatformPathEditor.cs',
             description:'Created an asset that would move a platform along an array of vectors as well as the tools to help'+
             ' the designers visualize and customize the path the platform will take.' ,
-            media: 'media/ChronOdin/platform.gif'
+            media: 'media/ChronOdin/platform.mp4'
         },
         {
             title: 'UI Implementation',
             link: 'https://github.com/GDCASU/TimePuzzle/tree/main/Assets/Scripts/UI',
             description:'Created a functional UI that allowed to player to traverse through the game and adjust settings to their liking.' ,
-            media: 'media/ChronOdin/functionalUI.gif'
+            media: 'media/ChronOdin/functionalUI.mp4'
         },
         {
             title: 'Master Time Class',
             link: 'https://github.com/GDCASU/TimePuzzle/blob/main/Assets/Scripts/TimeManipulation/MasterTime.cs',
             description:"Created our own time script to allow the effect of manipulating time without having to change the"+ 
             " built in Unity Time class which can affect the engine's physics." ,
-            media: 'media/ChronOdin/master_time.gif'
+            media: 'media/ChronOdin/master_time.mp4'
         },
         {
             title: 'Flowing River',
             link: 'https://github.com/GDCASU/TimePuzzle/blob/main/Assets/Scripts/LevelFunctionality/Flowing_River.cs',
             description:'Created an asset that pushed the player on a desired direction and limited their movement.',
-            media: 'media/ChronOdin/flowingRiver.gif'
+            media: 'media/ChronOdin/flowingRiver.mp4'
         },
     ],
     ProjectHoldW: [
@@ -210,20 +210,20 @@ export const contributions = {
             description: 'Created a physics based movement system that allow the player to perform basic actions like moving, crouching,'+
             ' and jumping, but also more advanced features such as vaulting, climbing, and sliding. All of them can be toggled on and'+
             ' off and the code is modular so adding new movement features is easy.',
-            media: 'media/HoldW/playercontroller.gif'
+            media: 'media/HoldW/playercontroller.mp4'
         },
         {
             title: 'Launch Grapple ',
             link: 'https://github.com/cdgonz115/TestMechanics/blob/main/Assets/Scripts/Player/PlayerController/PlayerControllerLaunch.cs',
             description: 'Script that launches the player to the location where the indicator is. Inspired by the Dishonored 2 far reach mechanic.',
-            media: 'media/HoldW/launch.gif'
+            media: 'media/HoldW/launch.mp4'
         },
         {
             title: 'Projectile Platform',
             link: 'https://github.com/cdgonz115/TestMechanics/tree/main/Assets/Scripts/Abilitites/ProjectilePlatform',
             description: "Projectile that is shot out and spawns a platform when it collides. The platforms's orientation is based on the"+
             " direction that it collided with the surface to make it easier on the player to keep their momentum as well as reset the player's abilities .",
-            media: 'media/HoldW/platform.gif'
+            media: 'media/HoldW/platform.mp4'
         }
     ],
     TheStation: [
@@ -231,27 +231,27 @@ export const contributions = {
             title: 'Full Project Commit History',
             link: 'https://github.com/cdgonz115/CPI211_Team10/commits?author=cdgonz115',
             description: 'The Full commit History to showcase in detail all of my contributions to this project',
-            media: 'media/HoldW/playercontroller.gif'
+            media: 'media/HoldW/playercontroller.mp4'
         },
         {
             title: 'Shooting Mechanic',
             link: 'https://github.com/cdgonz115/CPI211_Team10/blob/ccd06c92657c0eb42a8ceb6ff3f8e3cdbc4e37f2/Assets/Scripts/Payer/Looking.cs#L43',
             description: 'Script that ensured that the bullet would travel at the correct location even if the bullet spawned to the'+
             ' side at the front the barrel of the gun and not the center of the screen where the raycast was casted.',
-            media: 'media/TheStation/shootingmechanic.gif'
+            media: 'media/TheStation/shootingmechanic.mp4'
         },
         {
             title: 'Ending Cutscenes',
             link: 'https://github.com/cdgonz115/CPI211_Team10/blob/ccd06c92657c0eb42a8ceb6ff3f8e3cdbc4e37f2/Assets/Scripts/Level2/FlyAway.cs',
             description: 'Scripts to control the camera and the ship for the end cutscenes. ',
-            media: 'media/TheStation/endcinematics.gif'
+            media: 'media/TheStation/endcinematics.mp4'
         },
         {
             title: 'Basic Game Mechanics',
             link: 'https://github.com/cdgonz115/CPI211_Team10/tree/ccd06c92657c0eb42a8ceb6ff3f8e3cdbc4e37f2/Assets/Scripts/Level2',
             description: 'Multiple basic functionality for the game loop such as the change in gravity, the hovering key, ending the game,'+
             ' and the teleporter unlocking after the key was picked up.',
-            media: 'media/TheStation/basicgamemechanics.gif'
+            media: 'media/TheStation/basicgamemechanics.mp4'
         },
     ],
     HyperLoop: [
@@ -266,20 +266,20 @@ export const contributions = {
             link: 'https://github.com/cdgonz115/LudumDare47_Speed3.0/blob/main/Assets/Scripts/Player/TestMovement.cs',
             description: "Created a movement system that allows the player to build up speed as long as they hold"+
             " down one of the move keys or they don't crash with a wall.",
-            media: 'media/Hyperloop/movement.gif'
+            media: 'media/Hyperloop/movement.mp4'
         },
         {
             title: 'Teleporter',
             link: 'https://github.com/cdgonz115/LudumDare47_Speed3.0/blob/main/Assets/Scripts/Enviroment/Teleporter.cs',
             description: 'Created a teleporter that matches the players X and Y position to allow them to build speed'+ 
             ' and position themselves to reach new areas.',
-            media: 'media/Hyperloop/teleporter.gif'
+            media: 'media/Hyperloop/teleporter.mp4'
         },
         {
             title: 'Break Wall',
             link: 'https://github.com/cdgonz115/LudumDare47_Speed3.0/blob/main/Assets/Scripts/Enviroment/BreakAtSpeed.cs',
             description: 'Created a script that destroys the walls if the player is moving over the required velocity to break them.',
-            media: 'media/Hyperloop/breakwall.gif'
+            media: 'media/Hyperloop/breakwall.mp4'
         },
         {
             title: 'Speed Boost Fixes',

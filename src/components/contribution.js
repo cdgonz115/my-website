@@ -79,7 +79,10 @@ export default function Contribution(){
                 dispatch(decrementContribution());
                 console.log("AfterDecreaseDispatch");
             }} disabled = {canGoBack}  style = {buttonStyles}>Prev</button>
-            {(media!== undefined)&& <img src ={media} width="960" height="720" alt = 'media' />}
+            {(media!== undefined)&& 
+                    <video width="1280" height="720" controls muted autoplay loop>
+                        <source src={media} type="video/mp4" />
+                    </video>}
             <button onClick={() => {
                 console.log('increaseClicked');
                 dispatch(incrementContribution());
