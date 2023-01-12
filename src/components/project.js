@@ -36,7 +36,7 @@ export default function Project(){
     }
     else {
         return (
-            <div>
+            <div style = {{flex: '1'}}>
                 <h2 style = {introductionH2Style}>
                     About Me 
                 </h2>
