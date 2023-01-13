@@ -231,7 +231,7 @@ export const contributions = {
             title: 'Full Project Commit History',
             link: 'https://github.com/cdgonz115/CPI211_Team10/commits?author=cdgonz115',
             description: 'The Full commit History to showcase in detail all of my contributions to this project',
-            media: 'media/HoldW/playercontroller.mp4'
+            media: undefined
         },
         {
             title: 'Shooting Mechanic',
@@ -353,7 +353,7 @@ export const descriptions = {
         projectSummary:  'Project Hold W was created as a project to learn and explore about fast paced movement games and what makes them fun.'+
         ' It was inspired by the movement mechanics in games such as Titanfall, Dishonored, and Destiny.',
         link: undefined,
-        media: undefined
+        media: 'media/HoldW/HoldW.png'
     },
     TheStation: {
         title: 'Game Summary',

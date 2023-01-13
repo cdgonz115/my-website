@@ -1,7 +1,7 @@
 import React from 'react';
+import {useDispatch } from 'react-redux';
 import {projects} from '../data/projectsData.js';
-import {useSelector,useDispatch } from 'react-redux';
-import { selectContribution,changeProject } from '../features/contribution/contributionSlice.js';
+import {changeProject} from '../features/contribution/contributionSlice.js';
 
 export const nav = 
 {
@@ -40,13 +40,6 @@ export const navA =
     color: '#DC0128',
     width: '100%'
 }
-
-
-// changeProject: (state, action) => {
-//     state.currentProject = action.payload;
-//     state.currentContribution = 0;
-// },
-
 
 export default function NavBar(){
     const dispatch = useDispatch();

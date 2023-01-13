@@ -15,11 +15,9 @@ export const contributionsSlice = createSlice({
             state.currentContribution = 0;
         },
         incrementContribution: (state) => {
-            console.log('incrementReducer');
             state.currentContribution +=1;
         },
         decrementContribution: (state) => {
-            console.log('decrementReducer');
             state.currentContribution -=1;
         }
     }

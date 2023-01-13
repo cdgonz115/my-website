@@ -2,6 +2,7 @@ import React from 'react';
 import {useSelector} from 'react-redux';
 import Contribution from './contribution.js';
 import ProjectDescription from './projectDescription.js';
+import Spotlight from './spotlight.js';
 import {selectProject} from '../features/contribution/contributionSlice';
 
 const introductionH2Style = {
@@ -19,8 +20,8 @@ const introductionPStyle = {
     lineHeight: '2em',
     fontFamily: "'Comfortaa', Arial, Helvetica, sans-serif",
     fontWeight: 'bold',
-    marginLeft: '10px',
-    marginRight: '10px'
+    marginLeft: '100px',
+    marginRight: '100px'
 }
 export default function Project(){
 
@@ -34,9 +35,10 @@ export default function Project(){
             </div>
         );
     }
-    else {
+    else {      
         return (
-            <div style = {{flex: '1'}}>
+            <div>
+                <div style = {{flex: '1'}}>
                 <h2 style = {introductionH2Style}>
                     About Me 
                 </h2>
@@ -50,6 +52,10 @@ export default function Project(){
                 knowlege to bring value to a group of dedicated individuals that will help me to continue to grow and learn the skills necessary to continue thriving in the future. 
                 And I believe that my experience in college not only has given much insight on working on large team projects, but it has also put me on the path towards fulfilling my goals.</p>
             </div>
-        )
+            <Spotlight />
+            </div>
+
+
+        );
     }
 }

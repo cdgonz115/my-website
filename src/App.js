@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './components/navBar.js';
 import Project from './components/project.js';
-import Contacts from './components/contacts.js'
+import Contacts from './components/contacts.js';
 
 import './App.css';
 

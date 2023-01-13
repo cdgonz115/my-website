@@ -56,12 +56,12 @@ export default function ProjectDescription(){
                     {projectSummary}
                 </p>
             </div>
-            <div style = {projectLinkDivStyle}>
+            {link!==undefined && (<div style = {projectLinkDivStyle}>
                 <a style = {projectLinkAStyle}href = {link} target="_blank">
                     <h2 style = {projectLinkH2Style}>Download Here</h2>
                 </a>
                 <img style = {projectLinkImgStyle} src = {media} />
-            </div>
+            </div>)}
         </div>
     );
 }
