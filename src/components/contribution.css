@@ -1,0 +1,42 @@
+.contributionWrapper
+{
+    display: block;
+}
+.contribution button
+{
+    text-decoration: none;
+    font-family:'Righteous', Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    color: #DC0128;
+    border: none;
+    background-color: transparent;
+}
+.contribution
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contributionWrapper a
+{
+    text-decoration: none;
+}
+.contributionWrapper h2
+{
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+.contributionWrapper h3
+{
+    text-align: center;
+    color: black;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: .1em;
+    line-height: 2em;
+}

@@ -7,11 +7,8 @@ import {selectContribution, selectProject } from '../features/contribution/contr
 
 import {contributions} from '../data/projectsData';
 
-// const buttonDivStyles =  {
-//     display: 'flex',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-// }
+import './contribution.css'
+
 const buttonStyles = {
     textDecoration: 'none',
     fontFamily:"'Righteous', Arial, Helvetica, sans-serif",
@@ -26,7 +23,6 @@ const divContribution = {
     flexDirection: 'row',
     justifyContent: 'center'
 }
-
 const contributionA = {
     textDecoration: 'none'
 }
@@ -47,8 +43,6 @@ const contributionH3 = {
     lineHeight: '2em'
 }
 
-//make a function that gets the number of contributions of the current project
-
 export default function Contribution(){
 
     const currentContributionIndex  = useSelector(selectContribution);
@@ -62,21 +56,21 @@ export default function Contribution(){
     const canGoBack = (currentContributionIndex === 0);
 
     return (
-        <div>
-        <a style = {contributionA} href = {link} target="_blank">
-            <h2 style = {contributionH2}>
+        <div className='contributionWrapper'>
+        <a className='contributionWrapper' href = {link} target="_blank">
+            <h2 >
                 {title}
             </h2>
         </a>
-        <h3 style = {contributionH3}>
+        <h3 >
             {description}
         </h3 >
-        <div style = {divContribution}>
-            <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  style = {buttonStyles}>Prev</button>
+        <div className='contribution'>
+            <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >Prev</button>
             {(media!== undefined) && 
                     <video src = {media} width="1280" height="720" controls muted autoPlay loop/>
                     }
-            <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} style = {buttonStyles}>Next</button>
+            <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >Next</button>
         </div>
     </div>
     );
