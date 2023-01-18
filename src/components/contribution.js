@@ -9,40 +9,6 @@ import {contributions} from '../data/projectsData';
 
 import './contribution.css'
 
-const buttonStyles = {
-    textDecoration: 'none',
-    fontFamily:"'Righteous', Arial, Helvetica, sans-serif",
-    fontSize: '46px',
-    color: '#DC0128',
-    border: 'none',
-    backgroundColor: 'transparent'
-}
-const divContribution = {
-    width: '100%',
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center'
-}
-const contributionA = {
-    textDecoration: 'none'
-}
-const contributionH2 = {
-    marginTop: '40px',
-    color: '#DC0128',
-    fontSize: '40px',
-    textAlign: 'center',
-    fontFamily: "'Comfortaa', Arial, Helvetica, sans-serif",
-    alignContent: 'center'
-}
-const contributionH3 = {
-    textAlign: 'center',
-    color: 'black',
-    fontFamily: "'Comfortaa', Arial, Helvetica, sans-serif",
-    fontSize: '20px',
-    letterSpacing: '.1em',
-    lineHeight: '2em'
-}
-
 export default function Contribution(){
 
     const currentContributionIndex  = useSelector(selectContribution);
