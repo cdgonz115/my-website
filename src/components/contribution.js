@@ -20,6 +20,21 @@ export default function Contribution(){
 
     const canGoFurther = !(currentContributionIndex < contributions[project].length -1);
     const canGoBack = (currentContributionIndex === 0);
+    
+    const content = (media===undefined)?
+     (<>
+        <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >Prev</button>
+        <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >Next</button>
+     </>) :
+      (<>
+        <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >
+            {'<'}
+        </button>
+        <video src = {media} width="1280" height="720" controls muted autoPlay loop/>
+        <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >
+            {'>'}
+        </button>
+      </>) ;
 
     return (
         <div className='contributionWrapper'>
@@ -32,11 +47,7 @@ export default function Contribution(){
             {description}
         </h3 >
         <div className='contribution'>
-            <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >Prev</button>
-            {(media!== undefined) && 
-                    <video src = {media} width="1280" height="720" controls muted autoPlay loop/>
-                    }
-            <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >Next</button>
+            {content}
         </div>
     </div>
     );
