@@ -4,25 +4,8 @@ import Contribution from './contribution.js';
 import ProjectDescription from './projectDescription.js';
 import Spotlight from './spotlight.js';
 import {selectProject} from '../features/contribution/contributionSlice';
+import './project.css'
 
-const introductionH2Style = {
-    marginTop: '40px',
-    color: '#DC0128',
-    fontSize: '40px',
-    textAlign: 'center',
-    fontFamily: "'Comfortaa', Arial, Helvetica, sans-serif"
-}
-const introductionPStyle = {
-    textAlign: 'left',
-    padding: '30px',
-    fontSize: '1em',
-    letterSpacing: '.1em',
-    lineHeight: '2em',
-    fontFamily: "'Comfortaa', Arial, Helvetica, sans-serif",
-    fontWeight: 'bold',
-    marginLeft: '100px',
-    marginRight: '100px'
-}
 export default function Project(){
 
     const project = useSelector(selectProject);
@@ -38,11 +21,11 @@ export default function Project(){
     else {      
         return (
             <div>
-                <div style = {{flex: '1'}}>
-                <h2 style = {introductionH2Style}>
+                <div className='introduction'>
+                <h2>
                     About Me 
                 </h2>
-                <p style = {introductionPStyle}>
+                <p>
                 Welcome to my portfolio page! My name is Christian Gonzalez, I am a recent graduate from Arizona State University with a major in Computer Science 
                 and a certificate in computer games . This is a website dedicated to showcase my contributions to various projects during my time in college. 
                 Over the course of my time at ASU, I have worked on projects for club, classes, game jams, and personal intrigue. I have worked on dozens of mechanics and systems, 
@@ -51,8 +34,8 @@ export default function Project(){
                 a Vigenere cypher solver where the lenght of the key is not known, or using react and redux to create well organized modern looking websites. My goal is to use my skills and 
                 knowlege to bring value to a group of dedicated individuals that will help me to continue to grow and learn the skills necessary to continue thriving in the future. 
                 And I believe that my experience in college not only has given much insight on working on large team projects, but it has also put me on the path towards fulfilling my goals.</p>
-            </div>
-            <Spotlight />
+                </div>
+                <Spotlight />
             </div>
 
 

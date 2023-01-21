@@ -1,0 +1,41 @@
+.introduction
+{
+    flex: 1;
+}
+.introduction h2
+{
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+.introduction p
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 1em;
+    letter-spacing: .1em;
+    line-height: 2em;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (min-width: 600px)
+{
+    .introduction p
+    {
+        text-align: left;
+        padding: 30px;
+        font-size: 1em;
+        letter-spacing: .1em;
+        line-height: 2em;
+        font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
