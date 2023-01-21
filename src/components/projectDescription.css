@@ -1,0 +1,47 @@
+.projectSummary
+{
+    display: block;
+}
+
+.projectSummary h2
+{
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+
+.projectSummary p
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    line-height: 2em;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.projectLink
+{
+    display: flex;
+    flex-direction: column;
+}
+.projectLink h2
+ {
+    margin-top: 40px;
+    color: #DC0128;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+.projectLink img
+{
+    width: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectLink a
+{text-decoration: none;}
