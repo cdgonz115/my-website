@@ -166,8 +166,8 @@ export const contributions = {
         {
             title: 'Project Lead',
             link: undefined,
-            description: "Created the projects timeline with the projects producer as well as coordinated with the team"+
-            " leads to develop the project's features.",
+            description: "Created the projects timeline with the projects producer as well as coordinated with the team"+
+            " leads to develop the project's features.",
             media: undefined
         },
         {
