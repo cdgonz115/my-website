@@ -10,7 +10,7 @@ export const contributions = {
             title: 'Grapple Swing Mechanic',
             link: 'https://github.com/GDCASU/Color-Phase/blob/819c02a7998f371fcacca83bfcefdef38245bb4a/Assets/Scripts/Player/Grapple.cs#L218',
             description: 'Original mechanic did not allow for much room to swing and build momentum as well '+
-            'as a handful of other bugs, the improved version usessome extra logic and math that allow for a'+
+            'as a handful of other bugs, the improved version uses improved logic and math that allow for a'+
             ' more realistic swinging mechanic.',
             media: 'media/Colorphase/grapple.mp4'
         },
@@ -299,20 +299,20 @@ export const contributions = {
             title: 'Player Movement',
             link: 'https://github.com/cdgonz115/Cybob/blob/master/Assets/Scripts/Player/Movement.cs',
             description: 'Created the player movement that works for both 2d and 3d parts of the game.',
-            media: 'media/Cybob/movement.jpg'
+            media: 'media/Cybob/movement.mp4'
         },
         {
             title: 'Stage One Functionality',
             link: 'https://github.com/cdgonz115/Cybob/tree/master/Assets/Scripts/Levels/Gravity',
             description: "Created all the necessary scripts for the 1s't level including the ransition"+
             " from 2d camera to 3d, the moving lights inside the tube, the rotation of the tube and the animation for reaching the goal.",
-            media: 'media/Cybob/levelone.jpg'
+            media: 'media/Cybob/levelone.mp4'
         },
         {
             title: 'Unlock Abilities',
             link: 'https://github.com/cdgonz115/Cybob/tree/master/Assets/Scripts/Levels/Stealth',
             description: 'Script that allowed the player to unlock the crouch and jump abilities as they progressed through the game.',
-            media: 'media/Cybob/pickupabilities.jpg'
+            media: 'media/Cybob/pickupabilities.mp4'
         }
     ]
 }
@@ -320,7 +320,7 @@ export const descriptions = {
     Colorphase: {
         title: 'Game Summary',
         projectSummary: 'Enjoy a colorful puzzle-platformer experience in Color Phase! Find and use different colors' +
-        'to interact with the world around you in a variety of different ways to reach your goal!',
+        ' to interact with the world around you in a variety of different ways to reach your goal!',
         link: 'https://store.steampowered.com/app/956540/Color_Phase/',
         media: 'media/Colorphase/colorphase.png'
     },
@@ -350,7 +350,7 @@ export const descriptions = {
     },
     ProjectHoldW: {
         title: 'Game Summary (In Development)',
-        projectSummary:  'Project Hold W was created as a project to learn and explore about fast paced movement games and what makes them fun.'+
+        projectSummary:  'Project Hold W was created as a project to learn and explore fast paced movement games and what makes them fun.'+
         ' It was inspired by the movement mechanics in games such as Titanfall, Dishonored, and Destiny.',
         link: undefined,
         media: 'media/HoldW/HoldW.png'
