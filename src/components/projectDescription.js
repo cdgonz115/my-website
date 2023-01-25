@@ -11,7 +11,7 @@ export default function ProjectDescription(){
     const {title, link, projectSummary, media} = descriptions[project];
 
     return (
-        <div>
+        <div className='projectSummaryWrapper'>
              <div className='projectSummary'>
                 <h2>
                     {title}

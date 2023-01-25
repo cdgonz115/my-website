@@ -116,20 +116,20 @@ export const contributions = {
             title: 'Stun Improvement',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/AISight.cs#L130',
             description: 'The Stun mechanic was improved to allow the player to hide nearby after blinding The Bad Man.',
-            media: 'TheBadMan/stunmechanic.mp4'
+            media: 'media/TheBadMan/stunmechanic.mp4'
         },
         {
             title: 'Glowing Eyes (small epilepsy warning)',
             link: 'https://github.com/cdgonz115/CPI_211_Final/blob/d2ea66fd1ff800c79c4b3184e1a2dba631da1fb0/Assets/_Scripts/AIScripts/moveTo.cs#L225',
             description: 'Due to the dark nature of the maps, it was sometimes hard to tell where The Bad Man was and'+
             ' whether he was chasing. As a result glowing red eyes were added as a way to help the player know where The Bad Man is.',
-            media: 'TheBadMan/eyeglow.mp4'
+            media: 'media/TheBadMan/eyeglow.mp4'
         },
         {
             title: 'Level Environment Scripts',
             link: 'https://github.com/cdgonz115/CPI_211_Final/tree/master/Assets/_Scripts/Future',
             description: 'Made scripts specific to level information/interactions such as the flickering lights in some levels and melting ice.',
-            media: 'TheBadMan/leveldetails.mp4'
+            media: 'media/TheBadMan/leveldetails.mp4'
         }
     ],
     AegisInitiative: [
@@ -349,7 +349,7 @@ export const descriptions = {
         media: 'media/ChronOdin/chronOdin.png'
     },
     ProjectHoldW: {
-        title: 'Game Summary(In Development)',
+        title: 'Game Summary (In Development)',
         projectSummary:  'Project Hold W was created as a project to learn and explore about fast paced movement games and what makes them fun.'+
         ' It was inspired by the movement mechanics in games such as Titanfall, Dishonored, and Destiny.',
         link: undefined,

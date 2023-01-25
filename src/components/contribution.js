@@ -20,35 +20,47 @@ export default function Contribution(){
 
     const canGoFurther = !(currentContributionIndex < contributions[project].length -1);
     const canGoBack = (currentContributionIndex === 0);
-    
-    const content = (media===undefined)?
-     (<>
-        <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >Prev</button>
-        <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >Next</button>
-     </>) :
-      (<>
-        <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >
-            {'<'}
-        </button>
-        <video src = {media} width="1280" height="720" controls muted autoPlay loop/>
-        <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >
-            {'>'}
-        </button>
-      </>) ;
 
-    return (
+      if(media===undefined) return (
+        <>
         <div className='contributionWrapper'>
-        <a className='contributionWrapper' href = {link} target="_blank">
-            <h2 >
-                {title}
-            </h2>
-        </a>
-        <h3 >
-            {description}
-        </h3 >
-        <div className='contribution'>
-            {content}
+            <a href = {link} target="_blank">
+                <h2 >
+                    {title}
+                </h2>
+            </a>
+            <h3 >
+                {description}
+            </h3 >
         </div>
-    </div>
-    );
+        <div className='noMedia'>
+            <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >Prev</button>
+            <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >Next</button>    
+        </div>
+        </>
+      );
+      else
+      return (
+        <div className='outer'>
+            <button onClick={() => dispatch(decrementContribution())} disabled = {canGoBack}  >
+            {'<'}
+            </button>
+            <div className='inner'>
+                <video src = {media} controls muted autoPlay loop/> 
+                <div className='contributionWrapper'>
+                    <a href = {link} target="_blank">
+                        <h2 >
+                            {title}
+                        </h2>
+                    </a>
+                    <h3 >
+                        {description}
+                    </h3 >
+                </div>
+            </div>
+            <button onClick={() => dispatch(incrementContribution())} disabled = {canGoFurther} >
+            {'>'}
+            </button>            
+        </div>
+      );
 }
